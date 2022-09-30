@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Josefin+Sans:wght@700&display=swap');
+body{
+    height: 100%;
+    background-color: #A1C181;
+    font-family: 'Caveat', cursive;
+    font-size: 1.5em;
+    font-weight: 900;
+    overflow-x: hidden;
+}
+
+.mainContainer{
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    
+}
+.ins{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.Keypad{
+    background-color: #fff;
+    height: 50vh;
+    margin: 0.75em;
+    padding: 0;
+}
+
+.keys{
+    background-color: #fff;
+    height: 100%;
+    border: 1px solid #233D4D;
+    color: #233D4D;
+    transition: all 500ms;
+    font-family: 'Caveat', cursive;
+    font-size: 1em;
+    font-weight: 500;
+}
+
+.keys:hover{
+    background-color: rgba(2, 2, 2, 0.075);
+
+}
+
+.keys:active{
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.record{
+    background-color: #FCCA46;
+    color: #233D4D;
+    border:none;
+    margin-bottom: 0.75em;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.inputAndSave{
+    width: 30%;
+    margin: 0 auto;
+    transition: all 500ms;
+    margin-bottom: 0.75em;
+    
+    /* display: none; */
+}
+
+.recordData{
+    font-family: 'Caveat', cursive;
+    font-size: 0.9em;
+    font-weight: 600;
+}
+
+.save{
+    background-color: #FCCA46;
+    color: #233D4D;
+    border: none;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.list{
+    width: 30vw;
+    margin: 0 auto;
+    transition: all 500ms;
+    /* display: none; */
+}
+
+.chordAndButton{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    overflow-wrap: break-word;
+    
+    /* position: relative; */
+}
+
+.chord{
+    overflow-wrap: break-word;
+    width: 70%;
+    font-family: 'Caveat', cursive;
+    font-size: 0.8em;
+    font-weight: 700;
+}
+
+.buttonDiv{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-evenly;
+
+    width: 30%;
+}
+
+.playBtn,.deleteBtn,.editBtn{
+    color: #FCCA46;
+    font-size: 0.7em;
+}
+.playBtn:hover,.deleteBtn:hover,.editBtn:hover{
+    color: #ecbd3a;
+}
+.playBtn:active,.deleteBtn:active,.editBtn:active{
+    color: #dfb43f;
+}
+/* Animatioins */

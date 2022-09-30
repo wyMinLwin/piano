@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PIANO</title>
+    <!-- CSS only -->
+    <link rel="stylesheet" href="./all.min.css">
+    <link rel="stylesheet" href="./bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://kit.fontawesome.com/f06d6ce40c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="mainContainer">
+
+        <p class="text-muted mt-4 ins">
+            Use A, S, D, F, J, K, L, and ; key to play Piano
+        </p>
+        <div class="pianoButtonContainer">
+            <div class="Keypad btn-group">
+                <button class="keys btn" value="C4">C4</button>
+                <button class="keys btn" value="D4">D4</button>
+                <button class="keys btn" value="E4">E4</button>
+                <button class="keys btn" value="F4">F4</button>
+                <button class="keys btn" value="G4">G4</button>
+                <button class="keys btn" value="A4">A4</button>
+                <button class="keys btn" value="B4">B4</button>
+                <button class="keys btn" value="C5">C5</button> 
+            </div>
+        </div>
+        
+        <button class="record btn">Record</button>
+
+        <div class="inputAndSave input-group d-none animate__animated animate__bounceOut">
+            <input type="text" class="form-control recordData">
+            <button class="save btn">Save</button>
+        </div>
+
+        <div class="list">
+            <ul class="list-group recContainer">
+                
+            </ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
